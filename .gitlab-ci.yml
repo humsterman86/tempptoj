@@ -3,6 +3,7 @@ stages:
 
 deploy:one:
   stage: deploy
+  tags: tests
   script:
     - echo "Hello CI one"
 
