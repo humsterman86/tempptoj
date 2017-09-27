@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+deploy:one:
+  stage: deploy
+  script:
+    - echo "Hello CI one"
+
+deploy:two:
+  stage: deploy
+  script:
+    - echo "Hello CI two"
